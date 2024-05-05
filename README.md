@@ -17,32 +17,46 @@ The columns and their data types was analysed using info() method.
 A quick statistical summary of the dataset using describe() method.
 This function applies statistical computations on the dataset like extreme values,count of data points standard deviation etc. 
 Any missing value or NaN value is automatically skipped.describe() function gives a good picture of the distribution of data.
+
+
 3.Checking Missing Values
 It is crucial to check if data contains any missing values or not.
 Missing values can occure when no information is provided for one or more items or for a whole unit.It is done for isnull() method.
+
+
 4.Checking Duplicates
 Having duplicates in data sets can disrupt the analysis.
 Hence to check whether this data set contains any duplicates or not. 
 Pandas drop_duplicates() method helps on removing duplicates from the data frame.
 To see if the dataset is balanced or not i.e all the species contain equal amounts of vows or not. Series.value_counts() function.
 This funcation returns a series containing counts of unique values.  
+
+
 5.Data visulaization
 The Matplotlib and Seaborn library is used for the data visualization.The following characteristics are observed from the charts.
+
  a)Relation between variables
    The relationship between sepal length and sepal width.
    The relationship between Petal length and petal width.
+			
   b)Histograms
    Histograms shows the distribution of data for various columns.It can be used for uni as well as bi-variate analysis.
+			
   c)Histograms with Distplot Plot
    Distplot is used basically for the univariant set of observations and visualizes it through a histogram i.e only one observation and hence we choose one particular column of the dataset.
+			
   d)Handling Correlation
    Pandas dataframe.corr() is used to find the pairwise correlation of all columns in the dataframe.Any NA values ae automatically excluded.
+			
   e)Heatmaps
    The heatmap is a data visualization thechnique that is used to analyze the dataset as colors in two dimensions.Basically, it shows a correlation between all numerical variables in the dataset.
+			
   f)Box Plots
     The boxplots is use to see how the categorical value is distributed with other numerical values.
+				
   g)Handling Outliers
     An outlier is a data item/object that deviates significantly from the rest of the objects. They can be caused by measurement or execution errors.The analysis for oulier detection is referred to as outlier mining.There are many ways to detect the outliers nd the removal process is the data frame same as removing a data item from the pands's data frame.
+				
   h)Removing Outliers
     For removing the outlier one must follow the same process of removing an entry from the datset using its exact position in the dataset becuase in all those data items that satisfy the outlier defnition according to the method used.
  
