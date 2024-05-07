@@ -48,12 +48,7 @@ The Matplotlib and Seaborn library is used for the data visualization.The follow
   d)Box Plots
     The boxplots is use to see how the categorical value is distributed with other numerical values.
 				
-  e)Handling Outliers
-    An outlier is a data item/object that deviates significantly from the rest of the objects. They can be caused by measurement or execution errors.The analysis for oulier detection is referred to as outlier mining.There are many ways to detect the outliers nd the removal process is the data frame same as removing a data item from the pands's data frame.
-				
-  f)Removing Outliers
-    For removing the outlier one must follow the same process of removing an entry from the datset using its exact position in the dataset becuase in all those data items that satisfy the outlier defnition according to the method used.
- 
+
    
     
    
